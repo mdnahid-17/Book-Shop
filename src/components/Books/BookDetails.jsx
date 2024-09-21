@@ -18,7 +18,7 @@ const BookDetails = () => {
  
 
     return (
-        <div className='flex-col lg:flex gap-5 px-6 py-10 lg:px-14'>
+        <div className='flex flex-col lg:flex-row gap-5 px-6 py-10 lg:px-14'>
             <div className='w-full p-10 lg:w-1/2 bg-gray-200 lg:p-20 rounded-lg'>
                 <img src={image} alt="" />
             </div>
